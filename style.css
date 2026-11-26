@@ -142,7 +142,8 @@
 .brand:hover{border-color:#8b5cf6}
 .logo-icon{border-color:var(--accent);color:var(--accent)}
 .top-address svg{color:var(--accent)}
-.service-grid{scrollbar-color:var(--accent) #ede9fe}
+.service-grid{scrollbar-width:none}
+.service-grid::-webkit-scrollbar{display:none}
 .map-caption{border-top:3px solid var(--accent)}
 .guided-section{background:linear-gradient(120deg,#211033,#5b21b6)}
 .form-card{background:linear-gradient(140deg,#fff 55%,#ede9fe);border-color:#ddd0ff}
