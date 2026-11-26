@@ -124,15 +124,32 @@
 .contact-note a.button { display: inline-flex; color: var(--ink); font-size: 12px; }
 
 /* Couto Cell brand palette. */
-:root{--navy:#211033;--blue:#b58bfa;--orange:#d2aeff;--ink:#28163d;--muted:#71647f;--line:#e4dbea}
-.hero h1 em,.guided-copy em{color:#e0c8ff}
+:root{--navy:#211033;--blue:#a78bfa;--orange:#a78bfa;--ink:#28163d;--muted:#71647f;--line:#e5ddf2}
+.hero h1 em,.guided-copy em{color:#fff}
 .button,.nav-contact,.contact-note a.button{color:#28163d}
-.button:hover,.floating-wa:hover{background:#e2caff}
-.hero .eyebrow{color:#ead9ff}
+.button:hover,.floating-wa:hover{background:#c4b5fd}
+.top-address,.top-address small,.top-address svg,.top-phone small,.logo small{color:#fff}
+.hero .eyebrow,.intro,.guided-copy>p:not(.eyebrow),.guided-copy .eyebrow{color:#fff}
+.showcase{background:#fff}
+.hero-panel{background:linear-gradient(115deg,#25103f 0%,#5b21b6 43%,#a78bfa 75%,#fff 100%);border-color:#c4b5fd}
+.services-section{background:linear-gradient(160deg,#4c1d95 0%,#7c3aed 40%,#ddd0ff 76%,#fff 100%)}
+.services-section .section-head,.services-section .eyebrow,.services-section h2 em,.services-section .section-head>p{color:#fff}
+.service{background:linear-gradient(125deg,#8b5cf6 0%,#ddd0ff 32%,#fff 54%,#c4b5fd 100%);border-color:#ddd0ff}
+.service:nth-child(3n+2){background:linear-gradient(125deg,#c4b5fd 0%,#fff 48%,#f5f0ff 72%,#a78bfa 100%)}
+.brands-section,.reviews-section{background:#fff}
+.brand{background:linear-gradient(145deg,#fff 30%,#ede9fe 75%,#c4b5fd 100%);border-color:#e5ddf2;box-shadow:inset 2px 2px 3px #fff,0 7px 0 -3px #c4b5fd}
+.brand:hover{border-color:#8b5cf6}
+.guided-section{background:linear-gradient(120deg,#211033,#5b21b6)}
+.form-card{background:linear-gradient(140deg,#fff 55%,#ede9fe);border-color:#ddd0ff}
+.form-symbol,.initials{background:#ede9fe;color:#6d28d9}
+input,select,.testimonial,.map{border-color:#e5ddf2}
+.map{background:#fff;box-shadow:0 8px 0 -3px #ddd0ff}
+.review-stars{color:#7c3aed}
+.footer-grid p,.footer-bottom{color:#fff}
 .hero-art .hero-iphone{object-fit:contain;filter:drop-shadow(16px 25px 16px #1e0b3560)}
 .review-wall{grid-template-columns:1fr;height:440px}
 .reviews-summary a{color:#6b2f9e}
 .service:after{content:''}
 .form-card input,.form-card select{font-size:16px}
-@media(min-width:601px){.floating-wa{background:#d2aeff;color:#28163d}}
-@media(max-width:600px){.hero .eyebrow{font-size:9px;letter-spacing:1px}.topbar{gap:12px}.logo{font-size:21px}.top-phone{font-size:11px}.review-wall{height:420px}}
+@media(min-width:601px){.floating-wa{background:#a78bfa;color:#28163d}}
+@media(max-width:600px){.showcase{background:#fff}.hero-panel{background:linear-gradient(120deg,#25103f 0%,#5b21b6 47%,#a78bfa 79%,#fff 100%)}.hero .eyebrow{font-size:9px;letter-spacing:1px}.topbar{gap:12px}.logo{font-size:21px}.top-phone{font-size:11px}.review-wall{height:420px}}
