@@ -139,7 +139,7 @@
 .service:nth-child(3n+2){background:linear-gradient(125deg,#c4b5fd 0%,#fff 48%,#f5f0ff 72%,#a78bfa 100%)}
 .brands-section,.reviews-section{background:#fff}
 .brand{background:linear-gradient(145deg,#fff 30%,#ede9fe 75%,#c4b5fd 100%);border-color:#e5ddf2;box-shadow:inset 2px 2px 3px #fff,0 7px 0 -3px #c4b5fd}
-.brand:hover,.service:hover{border-color:var(--accent)}
+.brand:hover{border-color:#8b5cf6}
 .logo-icon{border-color:var(--accent);color:var(--accent)}
 .top-address svg{color:var(--accent)}
 .service-grid{scrollbar-color:var(--accent) #ede9fe}
