@@ -125,7 +125,8 @@
 
 /* Couto Cell brand palette. */
 :root{--navy:#211033;--blue:#a78bfa;--accent:#fdb927;--orange:var(--accent);--ink:#28163d;--muted:#71647f;--line:#e5ddf2}
-.hero h1 em,.guided-copy em{color:#fff}
+.hero h1 em{color:var(--accent)}
+.guided-copy em{color:#fff}
 .button,.nav-contact,.contact-note a.button{color:#28163d}
 .button:hover,.floating-wa:hover{background:#e9a916}
 .top-address,.top-address small,.top-address svg,.top-phone small,.logo small{color:#fff}
@@ -138,7 +139,11 @@
 .service:nth-child(3n+2){background:linear-gradient(125deg,#c4b5fd 0%,#fff 48%,#f5f0ff 72%,#a78bfa 100%)}
 .brands-section,.reviews-section{background:#fff}
 .brand{background:linear-gradient(145deg,#fff 30%,#ede9fe 75%,#c4b5fd 100%);border-color:#e5ddf2;box-shadow:inset 2px 2px 3px #fff,0 7px 0 -3px #c4b5fd}
-.brand:hover{border-color:#8b5cf6}
+.brand:hover,.service:hover{border-color:var(--accent)}
+.logo-icon{border-color:var(--accent);color:var(--accent)}
+.top-address svg{color:var(--accent)}
+.service-grid{scrollbar-color:var(--accent) #ede9fe}
+.map-caption{border-top:3px solid var(--accent)}
 .guided-section{background:linear-gradient(120deg,#211033,#5b21b6)}
 .form-card{background:linear-gradient(140deg,#fff 55%,#ede9fe);border-color:#ddd0ff}
 .form-symbol{background:var(--accent);color:#28163d}
